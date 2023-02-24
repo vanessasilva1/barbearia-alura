@@ -256,3 +256,21 @@ p:first-line {
 	width: 560px;
 	margin: 2em auto;
 }
+
+/* Seletores avançados 
+main > p { -- Seleciona filho direto
+	background: red;
+}
+
+img + p { -- Seleciona irmão direto
+	background: blue;
+}
+
+img ~ p { -- Seleciona todos os parágrafos que vem depois de img
+	background: #C78C19;
+}
+
+.principal p:not(#paragrafo) { -- Exclui um elemento, pega todos menos o elemento que tem o id paragráfo
+	background: #088C19;
+}
+*/
